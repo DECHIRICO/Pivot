@@ -1,0 +1,37 @@
+doctype html
+// https://www.youtube.com/watch?v=HG90F73SGqE&list=PLpPnRKq7eNW08GdKgS3ar2kg9-CiYWxN2&index=2
+// https://www.codexworld.com/add-subscriber-to-list-mailchimp-api-php/
+// http://sproutvideo.com/blog/add-a-mailchimp-signup-form-to-a-video.html
+html
+	head
+		meta(charset="utf-8")
+		title Pivot - Push yourself in the right direction
+		link(href="./css/style.css", rel="stylesheet")
+		link(href="./bower_components/bootstrap/less/bootstrap.less", rel="stylesheet")
+		link(href="./bower_components/normalize-css/normalize.css", rel="stylesheet")
+	body
+		.container-fluid
+			.row
+				.col-6
+					nav
+						ul
+							li Pivot logo 
+							li Manifesto
+					h1 Push yourself in the right direction
+					p
+						| There is a lot of exciting stuff going on in the stars above us that make astronomy so much fun.
+				.col-4
+					h3 Create an account
+					p We will informe you when we will launch and how to finalize your application.
+					form(action="index.html", method="post")
+						label(for="") First Name
+						input(type="text", name="firstName", value="")
+						label(for="") Last Name
+						input(type="text", name="LastName", value="")
+						label(for="") Email
+						input(type="text", name="Email", value="")
+						input(type="checkbox", name="", value="")
+						label(for="") Mentor
+						input(type="checkbox", name="", value="")
+						label(for="") Mentee
+						button(type="submit", name="button") Subscribe

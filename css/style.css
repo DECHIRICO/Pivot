@@ -1,0 +1,20 @@
+/* Import other styles */
+/* line 1, ../sass/components/_pivot.sass */
+#subscribePage {
+  background-color: purple;
+}
+/* line 3, ../sass/components/_pivot.sass */
+#subscribePage .wrapper {
+  display: grid;
+  display-grid-template-columns: 10% 40%;
+  grid-gap: 0px;
+  background-color: green;
+}
+/* line 8, ../sass/components/_pivot.sass */
+#subscribePage .wrapper .left {
+  background-color: pink;
+}
+/* line 11, ../sass/components/_pivot.sass */
+#subscribePage .wrapper .right {
+  background-color: red;
+}
