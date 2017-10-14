@@ -14,7 +14,7 @@ html
 		//- script(src='./bower_components/bootstrap/js/bootstrap.js')
 		script(src='./bower_components/bootstrap/js/bower_components/jquery/src/jquery.js')
 			
-	body.green
+	body.subscribePage
 		.container
 				.six.columns
 					.navbar
@@ -24,11 +24,14 @@ html
 									a.navbar-link(href="#", target="_blank") Pivot 
 								li.navbar-item 
 									a.navbar-link(href="#", target="_blank") Manifesto 
+								li.navbar-item 
+									a.navbar-link(href="#", target="_blank") Browse 
 						.container
-								.twelve.columns
-									h1 Push yourself in the right direction
-									p
-										| There is a lot of exciting stuff going on in the stars above us that make astronomy so much fun.
+							.twelve.columns
+								h1 Push yourself in the right direction
+								p
+									| There is a lot of exciting stuff going on in the stars above us that make astronomy so much fun.
+									
 				.six.columns
 					.container.sub.green
 						h3 Create an account
@@ -41,7 +44,7 @@ html
 							label(for="") Email
 							input.u-full-width(type="text", name="Email", value="")
 							h6 What are you interested in?
-							.container.u-full-width
+							.u-full-width
 								.six.columns
 									label.checkbox
 										input(type="checkbox", name="", value="")

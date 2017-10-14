@@ -1,17 +1,19 @@
 
-body
-  background-color: $lightgrey
 
 .sub
   @include margintop-xxl
   @include padding-xl
   background-color: white
+  @include border-radius-4
+  label
+   @include margintop-s
   h6
     font-size: 18px
-    @include margintop-xxs
+    @include margintop-l
     margin-bottom: 8px
   .checkbox
-    @include border-radius-4
+    @include margintop-m
+    border-radius: $global-radius
     padding: 5px 8px 8px 8px
     margin-top: -4px
     &:hover,&:focus,&:active
@@ -19,6 +21,8 @@ body
   .checkboxlabel
     margin-left: 8px
     font-weight:normal
+  .button-primary
+    @include margintop-l
 
 //Copied from Skeletron website
 

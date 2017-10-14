@@ -17,6 +17,7 @@ select {
   border-radius: $global-radius;
   box-shadow: none;
   box-sizing: border-box;
+  background-color: $lightgrey;
 }
 
 // Removes awkward default styles on some inputs for iOS

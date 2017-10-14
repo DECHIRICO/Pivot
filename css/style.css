@@ -2,8 +2,8 @@
 .red {
   background-color: red; }
 
-.green {
-  background-color: green; }
+.subscribePage {
+  background-color: #F5F9FB; }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
@@ -504,7 +504,7 @@ body {
   font-size: 1.5em;
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: SF Text, Arial, sans-serif;
   color: #222; }
 
 a {
@@ -516,7 +516,7 @@ hr {
   margin-top: 3rem;
   margin-bottom: 3.5rem;
   border-width: 0;
-  border-top: 1px solid #e1e1e1; }
+  border-top: 1px solid #F5F9FB; }
 
 .u-full-width {
   width: 100%;
@@ -822,7 +822,8 @@ select {
   border: 1px solid #d1d1d1;
   border-radius: 4px;
   box-shadow: none;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background-color: #F5F9FB; }
 
 input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"] {
   -webkit-appearance: none;
@@ -935,18 +936,19 @@ ol,
 form {
   margin-bottom: 2.5rem; }
 
-body {
-  background-color: #F5F9FB; }
-
 .sub {
   margin-top: 96px;
   padding: 48px;
-  background-color: white; }
+  background-color: white;
+  border-radius: 4px; }
+  .sub label {
+    margin-top: 4px; }
   .sub h6 {
     font-size: 18px;
-    margin-top: 8px;
+    margin-top: 16px;
     margin-bottom: 8px; }
   .sub .checkbox {
+    margin-top: 8px;
     border-radius: 4px;
     padding: 5px 8px 8px 8px;
     margin-top: -4px; }
@@ -954,6 +956,8 @@ body {
       background-color: #F5F9FB; }
   .sub .checkboxlabel {
     margin-left: 8px; }
+  .sub .button-primary {
+    margin-top: 16px; }
 
 .container {
   max-width: 1200px; }
