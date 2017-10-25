@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 //Middleware
-app.use(express.static (__dirname + '/'));
+app.use(express.static (__dirname + '/public'));
 
 app.listen(3000, function() {
   console.log("Listening on post 3000")
