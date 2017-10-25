@@ -1,0 +1,23 @@
+{
+  "name": "Pivot",
+  "version": "1.0.0",
+  "description": "A side project for mentorship.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://DECHIRICO@github.com/DECHIRICO/Pivot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DECHIRICO/Pivot/issues"
+  },
+  "homepage": "https://github.com/DECHIRICO/Pivot#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
