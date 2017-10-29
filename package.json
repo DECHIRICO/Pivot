@@ -13,9 +13,6 @@
   "engines": {
     "node": "^6.11.1"
   },
-  "scripts": {
-    "start": "node app.js",
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
