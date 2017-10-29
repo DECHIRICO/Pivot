@@ -16,13 +16,13 @@ app.listen(process.env.PORT || 3000, function(){
 });
 
 app.post ('/', function(req, res) {
-  addMemberToMailchimp(req.body.email)
   addMemberToMailchimp(req.body.firstName)
   addMemberToMailchimp(req.body.lastName)
+  addMemberToMailchimp(req.body.email)
   res.end('Success!!!');
 });
 
-function addMemberToMailchimp(email,firstName,lastName) {
+function addMemberToMailchimp(email, firstName, lastName) {
 
 var request = require("request");
 var options = { method: 'POST',
@@ -35,8 +35,10 @@ var options = { method: 'POST',
   body:
  { email_address: email,
    status: 'subscribed',
-   merge_fields: { FNAME: 'firstName', LNAME: 'lastName' } },
+   merge_fields: { FNAME: firstName, LNAME: lastName }
+ },
 json: true };
+
 
 request(options, function (error, response, body) {
   if (error) throw new Error(error);

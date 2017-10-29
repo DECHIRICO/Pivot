@@ -70,8 +70,8 @@
 var $ = __webpack_require__(1);
 
 $('form').submit(function(event) {
-  var firstName = $('#firstName').val();
-  var lastName = $('#lastName').val();
+  var userFirstName = $('#firstName').val();
+  var userLastName = $('#lastName').val();
   var userEmail = $('#email').val();
 
   event.preventDefault();
@@ -79,10 +79,10 @@ $('form').submit(function(event) {
       url: '/',
       type: 'POST',
       data: {
-        firstName: firstName
+        firstName: userFirstName
       },
       data: {
-        lastName: lastName
+        lastName: userLastName
       },
       data: {
         email: userEmail
