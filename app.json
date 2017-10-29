@@ -1,0 +1,8 @@
+{
+  "name": "Start on Pivot",
+  "description": "Pivot - Subscribe",
+  "repository": "https://github.com/DECHIRICO/Pivot",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "keywords": ["node", "express", "heroku"],
+  "image": "heroku/nodejs"
+}

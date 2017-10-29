@@ -29,6 +29,14 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/app.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/app-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/bower.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -3859,6 +3867,12 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/Procfile": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Procfile",
+		"oF": 0
 		},
 	"\/public\/css\/style.css": {
 		"aP": 1,
