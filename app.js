@@ -11,8 +11,8 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json())
 
-app.listen(5000, function() {
-  console.log("Listening on post 5000")
+app.listen(3000, function() {
+  console.log("Listening on post 3000")
 });
 
 app.post ('/', function(req, res) {
