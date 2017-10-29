@@ -10,9 +10,6 @@
     "type": "git",
     "url": "git+https://DECHIRICO@github.com/DECHIRICO/Pivot.git"
   },
-  "engines": {
-    "node" "*"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
