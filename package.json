@@ -11,7 +11,7 @@
     "url": "git+https://DECHIRICO@github.com/DECHIRICO/Pivot.git"
   },
   "engines": {
-    "node" "v7.10.0"
+    "node" "7.10.0"
   },
   "keywords": [],
   "author": "",
