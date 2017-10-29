@@ -11,7 +11,10 @@
     "url": "git+https://DECHIRICO@github.com/DECHIRICO/Pivot.git"
   },
   "engines": {
-    "node" "7.10.0"
+    "node": "^6.11.1"
+  },
+  "scripts": {
+    "start": "node app.js",
   },
   "keywords": [],
   "author": "",
