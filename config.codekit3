@@ -3910,6 +3910,12 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/public\/robots.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/robots.txt",
+		"oF": 0
+		},
 	"\/pug\/index.pug": {
 		"cOD": 1,
 		"ft": 512,
