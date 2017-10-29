@@ -2,13 +2,12 @@
 <!-- https://www.youtube.com/watch?v=HG90F73SGqE&list=PLpPnRKq7eNW08GdKgS3ar2kg9-CiYWxN2&index=2-->
 <!-- https://www.codexworld.com/add-subscriber-to-list-mailchimp-api-php/-->
 <!-- http://sproutvideo.com/blog/add-a-mailchimp-signup-form-to-a-video.html-->
+<!-- https://www.youtube.com/watch?v=HmG_TYlZVWU&list=PLkEZWD8wbltlSS_d_7tx_H_FBNVro8918&index=9-->
 <html>
   <head>
     <meta charset="utf-8">
     <title>Pivot - Push yourself in the right direction</title>
-    <link href="./css/style.css" rel="stylesheet">
-    <link href="./bower_components/normalize-css/normalize.css" rel="stylesheet">
-    <script src="./bower_components/bootstrap/js/bower_components/jquery/src/jquery.js"></script>
+    <link href="/css/style.css" rel="stylesheet">
   </head>
   <body class="subscribePage">
     <div class="container">
@@ -35,25 +34,13 @@
           <p>We will informe you when we will launch and how to finalize your application.</p>
           <form action="/" method="post">
             <label for="">First Name</label>
-            <input class="u-full-width" type="text" name="firstName" value="">
+            <input class="u-full-width" type="text" name="firstName" value="" id="firstName">
             <label for="">Last Name</label>
-            <input class="u-full-width" type="text" name="LastName" value="">
+            <input class="u-full-width" type="text" name="lastName" value="" id="lastName">
             <label for="">Email</label>
-            <input class="u-full-width" type="text" name="Email" value="">
-            <h6>What are you interested in?</h6>
-            <div class="u-full-width">
-              <div class="six columns">
-                <label class="checkbox">
-                  <input type="checkbox" name="" value=""><span class="checkboxlabel">Mentor</span>
-                </label>
-              </div>
-              <div class="six columns">
-                <label class="checkbox">
-                  <input type="checkbox" name="" value=""><span class="checkboxlabel">Mentee</span>
-                </label>
-              </div>
-            </div>
-            <button class="button-primary u-full-width" type="submit" name="button">Subscribe</button>
+            <input class="u-full-width" type="text" name="email" value="" id="email">
+            <button class="button-primary u-full-width" type="submit" name="button" id="submit">Subscribe</button>
+            <script src="/js/build.js"></script>
           </form>
         </div>
       </div>

@@ -9,14 +9,24 @@
 	],
 "creatorBuild": "25900",
 "files": {
-	"\/app.js": {
+	"\/app-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/app-min.js",
+		"oAP": "\/app-min-min.js",
 		"oF": 0,
 		"sC": 1,
+		"tS": 0
+		},
+	"\/app.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/app-min.js",
+		"oF": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/bower.json": {
@@ -3866,21 +3876,31 @@
 		"oAP": "\/public\/index.html",
 		"oF": 0
 		},
-	"\/public\/js\/build.js": {
+	"\/public\/js\/build-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/public\/js\/build-min.js",
+		"oAP": "\/public\/js\/build-min-min.js",
 		"oF": 0,
 		"sC": 1,
+		"tS": 0
+		},
+	"\/public\/js\/build.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/public\/js\/build-min.js",
+		"oF": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/pug\/index.pug": {
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/index.html",
+		"oAP": "\/public\/index.html",
 		"oF": 2,
 		"oS": 0
 		},
@@ -4223,19 +4243,29 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/style.css",
+		"oAP": "\/public\/css\/style.css",
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/src\/script-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/src\/script-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/src\/script.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/src\/script-min.js",
-		"oF": 0,
-		"sC": 1,
+		"oF": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/style.css.map": {
