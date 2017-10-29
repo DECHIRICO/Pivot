@@ -11,10 +11,8 @@ app.use(bodyParser.urlencoded({ extended: false }))
 // parse application/json
 app.use(bodyParser.json())
 
-app.set('port', (process.env.PORT || 5000));
-
-app.listen(5000, function() {
-  console.log("Listening on post 5000")
+app.listen(process.env.PORT || 3000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
 
 app.post ('/', function(req, res) {
