@@ -585,6 +585,21 @@ p {
   margin-top: 0; }
 
 /* Modules */
+.error {
+  background-color: red;
+  display: block;
+  padding: 10px; }
+
+.success {
+  background-color: green;
+  display: block;
+  padding: 10px; }
+
+.existingUser {
+  background-color: yellow;
+  display: block;
+  padding: 10px; }
+
 /*
 * Skeleton V2.0.4
 * Copyright 2014, Dave Gamache
