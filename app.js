@@ -16,10 +16,8 @@ app.listen(process.env.PORT || 3000, function(){
 });
 
 app.post ('/', function(req, res) {
-  addMemberToMailchimp(req.body.firstName)
-  addMemberToMailchimp(req.body.lastName)
-  addMemberToMailchimp(req.body.email)
-  res.end('Success!!!');
+  addMemberToMailchimp(req.body.email,req.body.firstName,req.body.lastName);
+  res.end('Success!!!')
 });
 
 function addMemberToMailchimp(email, firstName, lastName) {
@@ -41,10 +39,13 @@ json: true };
 
 
 request(options, function (error, response, body) {
-  if (error) throw new Error(error);
-
   console.log(body);
-
+  if (error){
+    throw new Error(error);
+    return false;
+  }else{
+    return true;
+  }
 });
 
 }

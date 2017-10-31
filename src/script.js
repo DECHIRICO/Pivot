@@ -10,7 +10,7 @@ $('form').submit(function(event) {
       url: '/',
       type: 'POST',
       data: {
-        email: userEmail
+        email: userEmail,
         firstName: userFirstName,
         lastName: userLastName,
       },
