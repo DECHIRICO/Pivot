@@ -1,0 +1,48 @@
+doctype html
+// https://www.youtube.com/watch?v=HG90F73SGqE&list=PLpPnRKq7eNW08GdKgS3ar2kg9-CiYWxN2&index=2
+// https://www.codexworld.com/add-subscriber-to-list-mailchimp-api-php/
+// http://sproutvideo.com/blog/add-a-mailchimp-signup-form-to-a-video.html
+// https://www.youtube.com/watch?v=HmG_TYlZVWU&list=PLkEZWD8wbltlSS_d_7tx_H_FBNVro8918&index=9
+html
+	
+	head
+		meta(charset="utf-8")
+		title Pivot - Push yourself in the right direction
+		link(href="/css/style.css", rel="stylesheet")
+			
+	body.subscribePage
+		.container
+				.six.columns
+					.navbar
+						.container
+							ul.navbar-list
+								li.navbar-item 
+									a.navbar-link(href="#", target="_blank") Pivot 
+								li.navbar-item 
+									a.navbar-link(href="#", target="_blank") Manifesto 
+								li.navbar-item 
+									a.navbar-link(href="#", target="_blank") Browse 
+						.container
+							.twelve.columns
+								h1 Push yourself in the right direction
+								p
+									| There is a lot of exciting stuff going on in the stars above us that make astronomy so much fun.
+									
+				.six.columns
+					.container.sub.green
+						h3 Create an account
+						
+						p.success.hide Great! Check your email to verify your account 
+						p.error.hide Something went wrong.
+						p.existingUser.hide Your email already exist
+						
+						p We will informe you when we will launch and how to finalize your application.
+						form(action="/", method="post")
+							label(for="") First Name
+							input.u-full-width(type="text", name="firstName", value="", id="firstName")
+							label(for="") Last Name
+							input.u-full-width(type="text", name="lastName", value="", id="lastName")
+							label(for="") Email
+							input.u-full-width(type="text", name="email", value="", id="email")
+							button.button-primary.u-full-width(type="submit", name="button", id="submit") Subscribe
+							script(src='/js/build.js')
