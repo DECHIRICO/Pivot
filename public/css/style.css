@@ -12,11 +12,8 @@
  *    user zoom. */
 html {
   font-family: sans-serif;
-  /* 1 */
   -ms-text-size-adjust: 100%;
-  /* 2 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */ }
+  -webkit-text-size-adjust: 100%; }
 
 /**
  * Remove default margin. */
@@ -38,9 +35,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera. */
 audio, canvas, progress, video {
   display: inline-block;
-  /* 1 */
-  vertical-align: baseline;
-  /* 2 */ }
+  vertical-align: baseline; }
 
 /**
  * Prevent modern browsers from displaying `audio` without controls.
@@ -168,11 +163,8 @@ code, kbd, pre, samp {
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome. */
 button, input, optgroup, select, textarea {
   color: inherit;
-  /* 1 */
   font: inherit;
-  /* 2 */
-  margin: 0;
-  /* 3 */ }
+  margin: 0; }
 
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11. */
@@ -196,15 +188,11 @@ select {
  *    `input` and others. */
 button, html input[type="button"] {
   -webkit-appearance: button;
-  /* 2 */
-  cursor: pointer;
-  /* 3 */ }
+  cursor: pointer; }
 
 input[type="reset"], input[type="submit"] {
   -webkit-appearance: button;
-  /* 2 */
-  cursor: pointer;
-  /* 3 */ }
+  cursor: pointer; }
 
 /**
  * Re-set default cursor for disabled elements. */
@@ -224,17 +212,13 @@ input {
     padding: 0; }
   input[type="checkbox"], input[type="radio"] {
     box-sizing: border-box;
-    /* 1 */
-    padding: 0;
-    /* 2 */ }
+    padding: 0; }
   input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
     height: auto; }
   input[type="search"] {
     -webkit-appearance: textfield;
-    /* 1 */
     -moz-box-sizing: content-box;
     -webkit-box-sizing: content-box;
-    /* 2 */
     box-sizing: content-box; }
     input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
       -webkit-appearance: none; }
@@ -272,9 +256,7 @@ fieldset {
  * 2. Remove padding so people aren't caught out if they zero out fieldsets. */
 legend {
   border: 0;
-  /* 1 */
-  padding: 0;
-  /* 2 */ }
+  padding: 0; }
 
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11. */
@@ -505,7 +487,8 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: SF Text, Arial, sans-serif;
-  color: #222; }
+  color: #222;
+  background-color: #1B2638; }
 
 a {
   color: #1eaedb; }
@@ -615,7 +598,7 @@ p {
 .container {
   position: relative;
   width: 100%;
-  max-width: 960px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
@@ -725,22 +708,25 @@ p {
 .button,
 button {
   display: inline-block;
-  height: 38px;
   padding: 0 30px;
+  height: 38px;
   color: #555555;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
   line-height: 38px;
   letter-spacing: .1rem;
-  text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
-  border-radius: 4px;
-  border: 1px solid #bbb;
+  border-radius: 8px;
+  /*border: 1px solid $border-color;*/
   cursor: pointer;
   box-sizing: border-box; }
+  .button.big,
+  button.big {
+    height: 60px;
+    font-size: 14px; }
 
 input[type="submit"], input[type="reset"], input[type="button"] {
   display: inline-block;
@@ -752,11 +738,10 @@ input[type="submit"], input[type="reset"], input[type="button"] {
   font-weight: 600;
   line-height: 38px;
   letter-spacing: .1rem;
-  text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
-  border-radius: 4px;
+  border-radius: 8px;
   border: 1px solid #bbb;
   cursor: pointer;
   box-sizing: border-box; }
@@ -786,13 +771,13 @@ input[type="submit"]:focus, input[type="reset"]:focus, input[type="button"]:focu
 .button.button-primary,
 button.button-primary {
   color: #fff;
-  background-color: #33c3f0;
-  border-color: #33c3f0; }
+  background-color: #5D37FF;
+  border-color: #5D37FF; }
 
 input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
   color: #fff;
-  background-color: #33c3f0;
-  border-color: #33c3f0; }
+  background-color: #5D37FF;
+  border-color: #5D37FF; }
 
 .button.button-primary:hover,
 button.button-primary:hover {
@@ -857,12 +842,12 @@ textarea {
   padding-bottom: 6px; }
 
 input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="text"]:focus, input[type="tel"]:focus, input[type="url"]:focus, input[type="password"]:focus {
-  border: 1px solid #33c3f0;
+  border: 1px solid #5D37FF;
   outline: 0; }
 
 textarea:focus,
 select:focus {
-  border: 1px solid #33c3f0;
+  border: 1px solid #5D37FF;
   outline: 0; }
 
 label,
@@ -953,6 +938,15 @@ ul,
 ol,
 form {
   margin-bottom: 2.5rem; }
+
+.subscribePage {
+  background-color: #1B2638; }
+  .subscribePage li {
+    color: #e1e1e1; }
+  .subscribePage h1 {
+    color: #e1e1e1; }
+  .subscribePage p {
+    color: #e1e1e1; }
 
 .sub {
   margin-top: 96px;

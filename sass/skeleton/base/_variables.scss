@@ -11,17 +11,18 @@ $bp-larger-than-desktophd : "min-width: 1200px" !default;
 // Colors
 $light-grey: #e1e1e1 !default;
 $dark-grey: #333 !default;
-$primary-color: #33c3f0 !default;
+$primary-color: #5D37FF !default;
 $secondary-color: lighten($dark-grey, 13.5%) !default;
 $border-color: #bbb !default;
 $link-color: #1eaedb !default;
 $font-color: #222 !default;
+$dark-background: #1B2638 !default;
 
 // Typography
 $font-family: SF Text, Arial, sans-serif !default;
 
 //Grid Variables
-$container-width: 960px !default;
+$container-width: 1280px !default;
 $container-width-larger-than-mobile: 85% !default;
 $container-width-larger-than-phablet: 80% !default;
 $total-columns: 12 !default;
@@ -30,3 +31,4 @@ $column-margin: 4% !default; // space between columns
 
 // Misc
 $global-radius: 4px !default;
+$global-radius-xl: 8px !default;

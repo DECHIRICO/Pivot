@@ -24,6 +24,7 @@
             <div class="twelve columns">
               <h1>Push yourself in the right direction</h1>
               <p>There is a lot of exciting stuff going on in the stars above us that make astronomy so much fun.</p>
+              <img src="img/pusher2.svg">
             </div>
           </div>
         </div>
@@ -42,7 +43,7 @@
             <input class="u-full-width" type="text" name="lastName" value="" id="lastName">
             <label for="">Email</label>
             <input class="u-full-width" type="text" name="email" value="" id="email">
-            <button class="button-primary u-full-width" type="submit" name="button" id="submit">Subscribe</button>
+            <button class="button-primary u-full-width big" type="submit" name="button" id="submit">Subscribe</button>
           </form>
         </div>
       </div>
