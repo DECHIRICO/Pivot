@@ -8,30 +8,31 @@
     <meta charset="utf-8">
     <title>Pivot - Push yourself in the right direction</title>
     <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua|PT+Sans" rel="stylesheet">
   </head>
   <body class="subscribePage">
     <div class="container">
-      <div class="six columns">
+      <div class="seven columns content-left">
         <div class="navbar">
           <div class="container">
             <ul class="navbar-list">
-              <li class="navbar-item"> <a class="navbar-link" href="#" target="_blank">Pivot </a></li>
-              <li class="navbar-item"> <a class="navbar-link" href="#" target="_blank">Manifesto </a></li>
-              <li class="navbar-item"> <a class="navbar-link" href="#" target="_blank">Browse </a></li>
+              <li class="navbar-item"> <a class="navbar-link logo" href="#" target="_blank">Pivot </a></li>
+              <!-- <li class="navbar-item"> <a class="navbar-link" href="#" target="_blank">Manifesto </a></li>
+              <li class="navbar-item"> <a class="navbar-link" href="#" target="_blank">Browse </a></li> -->
             </ul>
           </div>
           <div class="container">
             <div class="twelve columns">
               <h1>Push yourself in the right direction</h1>
-              <p>There is a lot of exciting stuff going on in the stars above us that make astronomy so much fun.</p>
+              <h4>There is a lot of exciting stuff going on in the stars above us that make astronomy so much fun.</p>
               <img src="img/pusher2.svg">
             </div>
           </div>
         </div>
       </div>
-      <div class="six columns">
+      <div class="five columns">
         <div class="container sub green">
-          <h3>Create an account</h3>
+          <h4>Create an account</h3>
           <p class="success hide">Great! Check your email to verify your account </p>
           <p class="error hide">Something went wrong.</p>
           <p class="existingUser hide">Your email already exist</p>

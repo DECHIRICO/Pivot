@@ -16,7 +16,6 @@ button {
   white-space: nowrap;
   background-color: transparent;
   border-radius: $global-radius-xl;
-  /*border: 1px solid $border-color;*/
   cursor: pointer;
   box-sizing: border-box;
   &.big {
@@ -51,7 +50,7 @@ input {
 .button:hover,
 button:hover {
   color: $dark-grey;
-  border-color: lighten($dark-grey, 33.3%);
+  border-color: lighten($dark-grey, 10.3%);
   outline: 0;
 }
 
