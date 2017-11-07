@@ -12,7 +12,6 @@
         <a class="logo" href="#" target="_blank">Pivup </a>
           <h1>Push yourself in the right direction</h1>
           <h5>There is a lot of exciting stuff going on in the stars above us that make astronomy so much fun.</p>
-          <img src="assets/img/pusher2.svg">
           <h6>Pivot 2017, All rights reserved</h6>
       </div>
     </div>

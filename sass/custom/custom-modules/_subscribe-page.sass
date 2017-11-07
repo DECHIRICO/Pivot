@@ -12,18 +12,13 @@
   height: 100vh
   margin: 0
   padding: 0
-  @media (max-width: 600px)
-    flex-wrap: nowrap
   .left
     width: 65vw
     padding-left: calc(60vw - 1000px)
     color: $light-grey
-    @media (max-width: 600px)
-      display: block
-
+    background-image: url(assets/img/pusher.png)
     .messagearea
       position: relative
-      top: calc(5vh)
       padding: $l
     .logo
       text-transform: uppercase
@@ -36,29 +31,27 @@
       cursor: pointer
     h1
       font-size: 4.5em
+      line-height: 0.95em
       max-width: 80%
+      margin-top: 24px
+      margin-bottom: 16px
     h5
       max-width: 80%
-    img
-      margin-top: $xl
-      transform: scale(1.2)
-      z-index: -1
+      line-height: 1.2em
     h6
       font-size: 0.8em
       margin-top: $xl
       color: $light-grey
+      position: fixed
+      bottom: 10px
   .right
     display: inline-block
-    height: 100vh;
+    height: 100vh
     width: 45vw
     padding-right: calc(30vw - 500px)
     background-color: white
-    @media (max-width: 600px)
-      display: block
-
     .formarea
       padding: $l
-      top: 250px
       position: relative
       height: 250px
       label
