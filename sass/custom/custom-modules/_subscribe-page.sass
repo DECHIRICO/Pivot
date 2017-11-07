@@ -5,7 +5,6 @@
   color: $primary-color
   text-shadow: none
 
-
 .subscribePage
   display: flex
   width: 100vw
@@ -16,11 +15,15 @@
     width: 65vw
     padding-left: calc(60vw - 1000px)
     color: $light-grey
-    background-image: url(assets/img/pusher.png)
+    background-image: url(../assets/img/pusher2.svg)
+    background-repeat: no-repeat
+    background-position: 50% 70%
+    background-size: 800px
     .messagearea
       position: relative
       padding: $l
     .logo
+      margin-top: $m
       text-transform: uppercase
       font-family: 'sf_pro_bold'
       text-decoration: none
@@ -51,6 +54,7 @@
     padding-right: calc(30vw - 500px)
     background-color: white
     .formarea
+      @include vertical-align
       padding: $l
       position: relative
       height: 250px

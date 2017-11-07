@@ -758,11 +758,15 @@ form {
     width: 65vw;
     padding-left: calc(60vw - 1000px);
     color: #B8C7E0;
-    background-image: url(assets/img/pusher.png); }
+    background-image: url(../assets/img/pusher2.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+    background-size: 800px; }
     .subscribePage .left .messagearea {
       position: relative;
-      padding: 40px; }
+      padding: 34px; }
     .subscribePage .left .logo {
+      margin-top: 16px;
       text-transform: uppercase;
       font-family: 'sf_pro_bold';
       text-decoration: none;
@@ -782,7 +786,7 @@ form {
       line-height: 1.2em; }
     .subscribePage .left h6 {
       font-size: 0.8em;
-      margin-top: 80px;
+      margin-top: 68px;
       color: #B8C7E0;
       position: fixed;
       bottom: 10px; }
@@ -793,7 +797,11 @@ form {
     padding-right: calc(30vw - 500px);
     background-color: white; }
     .subscribePage .right .formarea {
-      padding: 40px;
+      position: relative;
+      top: 30%;
+      -webkit-transform: translateY(-30%);
+      transform: translateY(-30%);
+      padding: 34px;
       position: relative;
       height: 250px;
       margin-top: 16px;
@@ -801,7 +809,7 @@ form {
       .subscribePage .right .formarea label {
         margin-top: 4px; }
     .subscribePage .right .button-primary {
-      margin-top: 40px; }
+      margin-top: 34px; }
 
 /* Larger than tablet */
 /*@media (min-width: 750px)

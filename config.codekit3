@@ -4096,7 +4096,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/css\/style-min.css",
 		"oF": 0,
 		"oS": 3
@@ -4108,6 +4108,16 @@
 		"oAP": "\/public\/index.php",
 		"oF": 0
 		},
+	"\/public\/js\/app-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/js\/app-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/public\/js\/build.js": {
 		"ft": 64,
 		"ma": 0,
@@ -4116,6 +4126,26 @@
 		"oAP": "\/public\/js\/build-min.js",
 		"oF": 1,
 		"sC": 0,
+		"tS": 0
+		},
+	"\/public\/js\/mylibs\/app.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/js\/app-min.js",
+		"oF": 2,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/public\/js\/mylibs\/TweenMax.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/js\/mylibs\/TweenMax.min-min.js",
+		"oF": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/public\/mail-endpoint.php": {
@@ -4526,7 +4556,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/ZZ-OLD\/app-min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -8443,7 +8473,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/ZZ-OLD\/public\/js\/build-min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -8847,7 +8877,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/ZZ-OLD\/src\/script-min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -8874,7 +8904,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/ZZ-OLD\/webpack.config-min-min.js",
 		"oF": 0,
 		"sC": 1,

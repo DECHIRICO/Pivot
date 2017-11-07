@@ -1,0 +1,1 @@
+var opening=new TimelineMax({});opening.add(TweenlineMax.to(".right",1,{opacity:1,left:10}));

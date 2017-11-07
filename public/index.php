@@ -39,5 +39,6 @@
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
       crossorigin="anonymous"></script>
     <script src="js/build.js"></script>
+    <script src="js/app-min.js"></script>
   </body>
 </html>
