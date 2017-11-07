@@ -1,42 +1,76 @@
+::-moz-selection
+  color: $primary-color
+  text-shadow: none
+::selection
+  color: $primary-color
+  text-shadow: none
+
+
 .subscribePage
-  background-color: $dark-background
-  .content-left
-    color: $lightgrey
+  display: flex
+  width: 100vw
+  height: 100vh
+  margin: 0
+  padding: 0
+  @media (max-width: 600px)
+    flex-wrap: nowrap
+  .left
+    width: 65vw
+    padding-left: calc(60vw - 1000px)
+    color: $light-grey
+    @media (max-width: 600px)
+      display: block
 
-.sub
-  @include margintop-xxl
-  @include padding-l
-  background-color: white
-  @include border-radius-4
-  label
-   @include margintop-s
-  h6
-    font-size: 18px
-    @include margintop-l
-    margin-bottom: 8px
-  .checkbox
-    @include margintop-m
-    border-radius: $global-radius
-    padding: 5px 8px 8px 8px
-    margin-top: -4px
-    &:hover,&:focus,&:active
-      background-color: $lightgrey
-  .checkboxlabel
-    margin-left: 8px
-    font-weight:normal
-  .button-primary
-    @include margintop-l
+    .messagearea
+      position: relative
+      top: calc(5vh)
+      padding: $l
+    .logo
+      text-transform: uppercase
+      font-family: 'sf_pro_bold'
+      text-decoration: none
+      list-style: none
+      font-size: 15px
+      letter-spacing: 0.7rem
+      color: $third-color
+      cursor: pointer
+    h1
+      font-size: 4.5em
+      max-width: 80%
+    h5
+      max-width: 80%
+    img
+      margin-top: $xl
+      transform: scale(1.2)
+      z-index: -1
+    h6
+      font-size: 0.8em
+      margin-top: $xl
+      color: $light-grey
+  .right
+    display: inline-block
+    height: 100vh;
+    width: 45vw
+    padding-right: calc(30vw - 500px)
+    background-color: white
+    @media (max-width: 600px)
+      display: block
 
-//Copied from Skeletron website
-
-.navbar
-  display: none
-
-/*@media (min-width: 550px)*/
+    .formarea
+      padding: $l
+      top: 250px
+      position: relative
+      height: 250px
+      label
+       @include margintop-s
+      @include margintop-l
+      margin-bottom: 8px
+    .button-primary
+      margin-top: $l
 
 
 /* Larger than tablet
-@media (min-width: 750px)
+/*@media (min-width: 750px)
   .navbar
     display: block
     width: 100%
@@ -66,11 +100,6 @@
     margin-right: 35px
     text-decoration: none
     line-height: 6.5rem
-    &.logo
-      font-size: 18px
-      letter-spacing: 0.7rem
-      color: $third-color
-      cursor: pointer
 
     &.active
       color: red
@@ -82,4 +111,4 @@
     .navbar-spacer
       display: block
     .navbar > .container
-      width: 80%
+      width: 80%*/

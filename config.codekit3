@@ -3882,6 +3882,118 @@
 		"oAP": "\/Procfile",
 		"oF": 0
 		},
+	"\/public\/assets\/fonts\/apercu_bold-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/assets\/fonts\/apercu_bold-webfont.ttf",
+		"oF": 0
+		},
+	"\/public\/assets\/fonts\/apercu_bold-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/assets\/fonts\/apercu_bold-webfont.woff",
+		"oF": 0
+		},
+	"\/public\/assets\/fonts\/apercu_bold-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/assets\/fonts\/apercu_bold-webfont.woff2",
+		"oF": 0
+		},
+	"\/public\/assets\/fonts\/apercu_light-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/assets\/fonts\/apercu_light-webfont.woff",
+		"oF": 0
+		},
+	"\/public\/assets\/fonts\/apercu_light-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/assets\/fonts\/apercu_light-webfont.woff2",
+		"oF": 0
+		},
+	"\/public\/assets\/fonts\/apercu_medium-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/assets\/fonts\/apercu_medium-webfont.woff",
+		"oF": 0
+		},
+	"\/public\/assets\/fonts\/apercu_medium-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/assets\/fonts\/apercu_medium-webfont.woff2",
+		"oF": 0
+		},
+	"\/public\/assets\/fonts\/apercu_medium_italic-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/assets\/fonts\/apercu_medium_italic-webfont.ttf",
+		"oF": 0
+		},
+	"\/public\/assets\/fonts\/apercu_medium_italic-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/assets\/fonts\/apercu_medium_italic-webfont.woff",
+		"oF": 0
+		},
+	"\/public\/assets\/fonts\/apercu_medium_italic-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/assets\/fonts\/apercu_medium_italic-webfont.woff2",
+		"oF": 0
+		},
+	"\/public\/assets\/fonts\/apercu_mono-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/assets\/fonts\/apercu_mono-webfont.ttf",
+		"oF": 0
+		},
+	"\/public\/assets\/fonts\/apercu_mono-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/assets\/fonts\/apercu_mono-webfont.woff",
+		"oF": 0
+		},
+	"\/public\/assets\/fonts\/apercu_mono-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/assets\/fonts\/apercu_mono-webfont.woff2",
+		"oF": 0
+		},
+	"\/public\/assets\/fonts\/gt-sectra-display-super-italic-webfont.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/assets\/fonts\/gt-sectra-display-super-italic-webfont.ttf",
+		"oF": 0
+		},
+	"\/public\/assets\/fonts\/gt-sectra-display-super-italic-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/assets\/fonts\/gt-sectra-display-super-italic-webfont.woff",
+		"oF": 0
+		},
+	"\/public\/assets\/fonts\/gt-sectra-display-super-italic-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/assets\/fonts\/gt-sectra-display-super-italic-webfont.woff2",
+		"oF": 0
+		},
 	"\/public\/assets\/fonts\/sf-pro-text-bold-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
@@ -3937,6 +4049,16 @@
 		"oA": 2,
 		"oAP": "\/public\/assets\/fonts\/sf-pro-text-regularitalic-webfont.woff2",
 		"oF": 0
+		},
+	"\/public\/assets\/fonts\/stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/public\/assets\/fonts\/stylesheet-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/public\/assets\/img\/pusher.png": {
 		"ft": 32768,

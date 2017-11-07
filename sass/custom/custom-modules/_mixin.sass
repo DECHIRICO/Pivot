@@ -1,0 +1,182 @@
+/*----- Fonts -----
+=relative-font-size($size: 12)
+  font-size: #{$size}px
+  font-size: #{$size * 0.1}rem
+
+/*----- Border Radius -----
+=border-radius($radius)
+  -webkit-border-radius: $radius
+  border-radius: $radius
+  background-clip: padding-box
+
+/*----- Box Shadow -----
+=box-shadow($top, $left, $blur, $color, $inset: false)
+  @if $inset
+    -webkit-box-shadow: inset $top $left $blur $color
+    -moz-box-shadow: inset $top $left $blur $color
+    box-shadow: inset $top $left $blur $color
+  @else
+    -webkit-box-shadow: $top $left $blur $color
+    -moz-box-shadow: $top $left $blur $color
+    box-shadow: $top $left $blur $color
+
+/*----- Opacity -----
+=opacity($opacity)
+  opacity: $opacity
+
+  $opacity-ie: $opacity * 100
+
+  filter: alpha(opacity = $opacity-ie)
+
+  //IE8
+
+/*----- Media Queries -----
+=respond-to($media)
+  @if $media == mobile
+    @media only screen and (max-width: $break_mobile)
+      @content
+  @else if $media == tablet
+    @media only screen and (min-width: $break_mobile + 1) and (max-width: $break_desktop - 1)
+      @content
+  @else if $media == desktop
+    @media only screen and (min-width: $break_desktop)
+      @content
+
+/*----- Disable user select (text and etc) -----
+=disable-select
+  -webkit-touch-callout: none
+  -webkit-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+
+/*----- Box Sizing -----
+=box-sizing($box-model)
+  -webkit-box-sizing: $box-model
+
+  // Safari <= 5
+  -moz-box-sizing: $box-model
+
+  // Firefox <= 19
+  box-sizing: $box-model
+
+/*----- Vendorize mixin -----
+=vendorize($property, $value)
+  -webkit-#{$property}: $value
+  -moz-#{$property}: $value
+  -ms-#{$property}: $value
+  -o-#{$property}: $value
+  #{$property}: $value
+
+/*----- Transition for animations -----
+// Note: Won't work with transform properties
+// Usage: @include transition(all, 0.2s, ease-in-out);
+=transition($transition-property, $transition-time, $method, $delay: 0s)
+  -webkit-transition: $transition-property $transition-time $method $delay
+  -moz-transition: $transition-property $transition-time $method $delay
+  -ms-transition: $transition-property $transition-time $method $delay
+  -o-transition: $transition-property $transition-time $method $delay
+  transition: $transition-property $transition-time $method $delay
+
+/*----- Transition for animations: multiple -----
+=transitions($args...)
+  -webkit-transition: $args
+  -moz-transition: $args
+  -ms-transition: $args
+  -o-transition: $args
+  transition: $args
+
+/*----- Transition for animations: transform -----
+// Note: Transform's only
+=transition-transform($i, $k, $d: 0s)
+  -webkit-transition: -webkit-transform $i $k $d
+  -moz-transition: -moz-transform $i $k $d
+  -ms-transition: -ms-transform $i $k $d
+  -o-transition: -o-transform $i $k $d
+  transition: transform $i $k $d
+
+/*----- Background-size: cover -----
+=cover
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+
+/*----- Enable hardware acc for some animations -----
+=hardware-acc
+  +vendorize(transform, translate3d(0, 0, 0))
+
+  -webkit-backface-visibility: hidden
+  -webkit-perspective: 1000
+
+/*---- Placeholder Color ----
+=placeholder($color)
+  &::-webkit-input-placeholder
+    color: $color
+
+  &:-moz-placeholder
+    /* Firefox 18-
+    color: $color
+
+  &::-moz-placeholder
+    /* Firefox 19+
+    color: $color
+
+  &:-ms-input-placeholder
+    color: $color
+
+/*---- Flexbox ----
+// Flexbox display
+=flexbox
+  display: -webkit-box
+  display: -moz-box
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex
+
+// The 'flex' shorthand
+// - applies to: flex items
+// <positive-number>, initial, auto, or none
+=flex($values)
+  -webkit-box-flex: $values
+  -moz-box-flex: $values
+  -webkit-flex: $values
+  -ms-flex: $values
+  flex: $values
+
+// Flex Direction and Wrap
+// - applies to: flex containers
+// <flex-direction> || <flex-wrap>
+=flex-flow($flow)
+  -webkit-flex-flow: $flow
+  -moz-flex-flow: $flow
+  -ms-flex-flow: $flow
+  flex-flow: $flow
+
+// Axis Alignment
+// - applies to: flex containers
+// flex-start | flex-end | center | space-between | space-around
+=justify-content($justify)
+  -webkit-justify-content: $justify
+  -moz-justify-content: $justify
+  -ms-justify-content: $justify
+  justify-content: $justify
+  -ms-flex-pack: $justify
+
+// Flex Flow Direction
+// - applies to: flex containers
+// row | row-reverse | column | column-reverse
+=flex-direction($direction)
+  -webkit-flex-direction: $direction
+  -moz-flex-direction: $direction
+  -ms-flex-direction: $direction
+  flex-direction: $direction
+
+// Cross-axis Alignment
+// - applies to: flex containers
+// flex-start | flex-end | center | baseline | stretch
+=align-items($align)
+  -webkit-align-items: $align
+  -moz-align-items: $align
+  -ms-align-items: $align
+  align-items: $align

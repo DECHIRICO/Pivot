@@ -1,19 +1,25 @@
-/// T E M P
-
-.error
-  background-color: red
+.alerts
+  font-family: 'sf_pro'
+  border-radius: $global-radius
   display: block
-  padding: 10px
+  padding: 12px
+  text-align: center
+  letter-spacing: 0.02em
+  font-weight: 500
 
-.success
-  background-color: green
-  display: block
-  padding: 10px
+  &.error
+    background: rgba(208,2,27,0.64)
+    border: 1px solid #D24D5E
+    color: #67010D
 
-.existingUser
-  background-color: yellow
-  display: block
-  padding: 10px
+  &.success
+    background: #86C7B0;
+    border: 1px solid #6DAA94;
+    color: #24614B
 
+  &.existingUser
+    background: #F9DF64
+    border: 1px solid #FFD117
+    color: #8D3E0E
 .hide
   display: none
