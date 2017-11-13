@@ -2,14 +2,14 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Pivup - Push yourself in the right direction</title>
+    <title>Pivot - Push yourself in the right direction</title>
     <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua" rel="stylesheet">
   </head>
   <body class="subscribePage">
     <div class="selection left">
       <div class="messagearea">
-        <a class="logo" href="#" target="_blank">Pivup </a>
+        <a class="logo" href="#" target="_blank">Pivot </a>
           <h1>Push yourself in the right direction</h1>
           <h5>There is a lot of exciting stuff going on in the stars above us that make astronomy so much fun.</p>
           <h6>Pivot 2017, All rights reserved</h6>

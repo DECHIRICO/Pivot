@@ -7,7 +7,7 @@
 		"uuidString": "90F7B22B-3D14-4031-B3A0-448CCF418454"
 		}
 	],
-"creatorBuild": "26097",
+"creatorBuild": "26148",
 "files": {
 	"\/app.json": {
 		"ft": 524288,
@@ -4096,7 +4096,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/public\/css\/style-min.css",
 		"oF": 0,
 		"oS": 3
@@ -4133,9 +4133,9 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/public\/js\/app-min.js",
-		"oF": 2,
-		"sC": 0,
+		"oAP": "\/public\/js\/mylibs\/app-min.js",
+		"oF": 0,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/public\/js\/mylibs\/TweenMax.min.js": {
@@ -4556,7 +4556,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/ZZ-OLD\/app-min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -8473,7 +8473,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/ZZ-OLD\/public\/js\/build-min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -8877,7 +8877,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/ZZ-OLD\/src\/script-min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -8904,7 +8904,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/ZZ-OLD\/webpack.config-min-min.js",
 		"oF": 0,
 		"sC": 1,
