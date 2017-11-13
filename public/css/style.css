@@ -766,7 +766,7 @@ form {
       content: "";
       background-image: url(../assets/img/pusher2.svg);
       background-repeat: no-repeat;
-      background-position: -10px 380px;
+      background-position: -10px 390px;
       background-size: 600px;
       height: 90vh;
       background-size: contain; }
@@ -783,11 +783,9 @@ form {
     .subscribePage .left h1 {
       font-size: 4.5em;
       line-height: 0.95em;
-      max-width: 80%;
       margin-top: 24px;
       margin-bottom: 16px; }
     .subscribePage .left h5 {
-      max-width: 80%;
       line-height: 1.2em; }
     .subscribePage .left h6 {
       font-size: 0.8em;
@@ -806,8 +804,7 @@ form {
       top: 25%;
       -webkit-transform: translateY(-25%);
       transform: translateY(-25%);
-      padding: 34px;
-      padding-left: 68px;
+      padding: 68px;
       position: relative;
       height: 250px;
       margin-top: 16px;
