@@ -1,4 +1,218 @@
-// sass-lint:enable-all
-/* Import other styles
-@import "skeleton/_skeleton"
-@import "custom/_pivot"
+@charset "utf-8"
+
+html
+  box-sizing: border-box
+  text-rendering: optimizeLegibility
+  -webkit-font-smoothing: antialiased
+
+*
+  box-sizing: inherit
+  outline: 0 !important
+  &:before, &:after
+    box-sizing: inherit
+    outline: 0 !important
+
+input::-moz-focus-inner, button::-moz-focus-inner
+  display: none
+
+input:-webkit-autofill
+  color: #fff !important
+
+img
+  max-width: 100%
+  height: auto
+  vertical-align: middle
+
+textarea
+  resize: vertical
+
+button, input, textarea, select
+  -webkit-font-smoothing: inherit
+
+iframe
+  border: 0
+
+a, area, button, [role="button"], input, label, select, summary, textarea
+  -ms-touch-action: manipulation
+  touch-action: manipulati
+
+html, body
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #FAFAFB
+body
+  min-height: 780px
+  display: flex
+  align-items: center
+  position: relative
+  border: none
+
+.logo
+  text-decoration: none
+  text-transform: uppercase
+  font-weight: bold
+  letter-spacing: 2px
+  display: inline-flex
+  margin-top: 24px
+h1
+  font-weight: 600
+  color: #161338
+  letter-spacing: -1.2px
+  line-height: 1.1
+
+p
+  color: #726D82
+  line-height: 1.4
+
+form
+  margin-top: 24px
+
+.input-group
+  margin-bottom: 8px
+
+.row
+  flex-direction: column-reverse
+
+
+input
+  border-radius: 3px
+  background: #FFFFFF
+  border: none
+  color: #161338
+  padding: 12px
+  width: 100%
+  font-size: 15px
+  margin: 0
+  transition: box-shadow 0.3s
+  font-family: inherit
+  outline: none
+  box-shadow: 0 2px 4px 0 rgba(22, 19, 56, 0.15), 0 0 0 1px rgba(22, 19, 56, 0.1)
+  &.active, &:active, &:focus, &[required]:valid
+    box-shadow: 0 2px 4px 0 rgba(22, 19, 56, 0.15), 0 0 0 1px #5B40CF
+  &::-webkit-input-placeholder, &::-moz-placeholder, &:-ms-input-placeholder, &:-moz-placeholder
+    color: #726D82
+
+.alerts
+  font-size: 15px
+  border-radius: 4px
+  display: block
+  opacity: 0
+  padding: 12px
+  text-align: center
+  letter-spacing: 0.02em
+  font-weight: 500
+  &.error
+    background: rgba(208, 2, 27, 0.64)
+    color: #67010D
+    opacity: 1
+  &.success
+    background: #86C7B0
+    color: #24614B
+    opacity: 1
+  &.existingUser
+    background: #F9DF64
+    color: #8D3E0E
+    opacity: 1
+
+
+.hide
+  display: none
+
+.button
+  background: #5B40CF
+  box-shadow: 0 4px 10px 0 rgba(16, 51, 65, 0.1), 0 0 0 1px #5B40CF
+  border-radius: 3px
+  font-weight: 500
+  font-size: 16px
+  color: #FFFFFF
+  border: none
+  padding: 12px 24px
+  font-family: inherit
+  cursor: pointer
+  white-space: nowrap
+  &.small
+    padding: 8px 16px
+  &.block
+    width: 100%
+    margin-top: 32px
+    display: block
+  &.ghost
+    background: #FFFFFF
+    color: #6B7990
+    box-shadow: 0 4px 10px 0 rgba(16, 51, 65, 0.1), 0 0 0 1px #FFFFFF
+  + .button
+    margin-left: 12px
+  &.disabled, &[disabled]
+    pointer-events: none
+    opacity: 0.3
+    user-select: none
+  &:focus
+    box-shadow: 0 0 0 2px #FFF, 0 0 0 4px #4C2CD2
+  &.ghost:focus
+    box-shadow: 0 0 0 2px #FFF, 0 0 0 4px rgba(16, 51, 65, 0.1)
+  &:hover
+    background: #4C2CD2
+    box-shadow: 0 4px 10px 0 rgba(16, 51, 65, 0.1), 0 0 0 1px #3D4FB7
+  &.ghost:hover
+    background: #F6F7F7
+    box-shadow: 0 4px 10px 0 rgba(16, 51, 65, 0.1), 0 0 0 1px #F6F7F7
+  &.spinner
+    position: relative
+    color: #4C2CD2
+
+@keyframes spinner
+  to
+    transform: rotate(360deg)
+
+.spinner:before
+  content: ''
+  box-sizing: border-box
+  position: absolute
+  top: 50%
+  left: 50%
+  width: 20px
+  height: 20px
+  margin-top: -10px
+  margin-left: -10px
+  border-radius: 50%
+  border: 2px solid #ccc
+  border-top-color: #5B40CF
+  animation: spinner .6s linear infinite
+
+label
+  font-weight: 400
+  font-size: 15px
+  color: #726D82
+  line-height: 40px
+  margin-right: 16px
+  white-space: nowrap
+  width: 120px
+  flex-shrink: 0
+  text-align: left
+
+input + input
+  margin-left: 0
+  margin-top: 16px
+
+@media (min-width: 64em)
+  .row
+    flex-direction: row
+
+@media (min-width: 48em)
+  h1
+    font-size: 52px
+  p
+    font-size: 18px
+  input + input
+    margin-left: 16px
+    margin-top: 0
+
+.clearfix
+  &:before
+    content: " "
+    display: table
+  &:after
+    content: " "
+    display: table
+    clear: both
+
+on

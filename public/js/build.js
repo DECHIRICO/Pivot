@@ -3,7 +3,7 @@ $(document).ready(function(){
     var userEmail = $('#email').val();
     var userFirstName = $('#firstName').val();
     var userLastName = $('#lastName').val();
-
+    $('.button').addClass('spinner');
     event.preventDefault();
       $.ajax({
         url: 'mail-endpoint.php',
@@ -18,15 +18,19 @@ $(document).ready(function(){
           switch(response){
             case "Success":
               $('.success').show();
+              $('.button').removeClass('spinner');
               break;
             case "Error":
               $('.error').show();
+              $('.button').removeClass('spinner');
               break;
             case "Error-Already":
               $('.existingUser').show();
+              $('.button').removeClass('spinner');
               break;
             default:
               $('.error').show();
+              $('.button').removeClass('spinner');
               break;
           }
         }
