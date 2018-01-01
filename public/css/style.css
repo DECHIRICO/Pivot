@@ -126,7 +126,6 @@ input {
     opacity: 1; }
   .alerts.existingUser {
     background: #F9DF64;
-    border: 1px solid #FFD117;
     color: #8D3E0E;
     opacity: 1; }
 
@@ -225,23 +224,28 @@ label {
 
 input + input {
   margin-left: 0;
-  margin-top: 16px; }
+  margin-top: 8px; }
 
-@media (min-width: 64em) {
+@media (min-width: 48em) {
   .row {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
-            flex-direction: row; } }
-
-@media (min-width: 48em) {
+            flex-direction: row; }
   h1 {
-    font-size: 52px; }
+    font-size: 52px; } }
+
+@media (max-width: 48em) {
   p {
     font-size: 18px; }
-  input + input {
-    margin-left: 16px;
-    margin-top: 0; } }
+  .container {
+    padding-left: 0px;
+    padding-right: 0px; }
+  .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
 
 .clearfix:before {
   content: " ";

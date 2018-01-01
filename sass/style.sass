@@ -191,20 +191,22 @@ label
 
 input + input
   margin-left: 0
-  margin-top: 16px
-
-@media (min-width: 64em)
-  .row
-    flex-direction: row
+  margin-top: 8px
 
 @media (min-width: 48em)
+  .row
+    flex-direction: row
   h1
     font-size: 52px
+
+@media (max-width: 48em)
   p
     font-size: 18px
-  input + input
-    margin-left: 16px
-    margin-top: 0
+  .container
+    padding-left: 0px
+    padding-right: 0px
+  .row
+    flex-direction: column
 
 .clearfix
   &:before
@@ -214,5 +216,3 @@ input + input
     content: " "
     display: table
     clear: both
-
-on

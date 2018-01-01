@@ -4,7 +4,7 @@
 
     <title> Pivot - Push yourself in the right direction </title>
     <meta charset="utf-8" />
-
+    <meta name="google-site-verification" content="bED0agOcubfO_rIcvEjNIp2907xlk58v3I8N-dVmQGs" />
     <meta name="description" content="Pivot is a platform to help designers..." />
     <meta name="author" content="Pivot" />
     <meta name="designer" content="Pivot Design Team" />
@@ -12,8 +12,14 @@
     <meta name="keywords" content="" />
 
     <!-- iOS configuration -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
 
     <!-- Robots and Viewport -->
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, maximum-scale=5.0" />
 
     <!-- OpenGraph for Facebook -->
 
@@ -28,7 +34,10 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/flexboxgrid.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+
+
     <!-- Segment -->
+
   </head>
 
   <body class="container">
@@ -36,7 +45,7 @@
       <div class="col-xs-9 col-md-6">
           <a class="logo" href="#" target="_blank">Pivot </a>
             <h1>Push yourself in the right direction</h1>
-            <p>Pivot is a platform that helps people to learn everything they need to succeed from dream jobs to career advice. We're currently in beta, sign up to get early access.</p>
+            <p>Pivot is a platform that helps people find mentors/advisors that will be there to support and help kickstart, re-launch or grow their career. We're currently in beta, sign up to get early access.</p>
 
         <span class="alerts hide success">Great! We will let you know when we are on </span>
         <span class="alerts hide error">Something went wrong, please try again</span>
@@ -63,7 +72,7 @@
     </div>
 
       <div class="col-xs-9 col-md-5 col-md-offset-1">
-        <img src="assets/img/pusher.png" alt="Pusher">
+        <!-- <img src="assets/img/pusher.png" alt="Pusher"> -->
       </div>
 
 
@@ -75,6 +84,6 @@
     crossorigin="anonymous"></script>
   <script src="js/build.js"></script>
   <script src="js/app-min.js"></script>
-  </body>
+</body>
 
 </html>

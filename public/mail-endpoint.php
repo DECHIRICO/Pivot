@@ -34,29 +34,29 @@
     $fname = $_POST['firstName'];
     $lname = $_POST['lastName'];
     $email = $_POST['email'];
-    if(mc_checklist($email,false,'e6516229f9515ebe67b8adeb5ba3bcae-us10','0a49147dce','us10')){
+    if(mc_checklist($email,false,'e6516229f9515ebe67b8adeb5ba3bcae-us10','9369b1ffc1','us10')){
     	echo"Error-Already";
     }else{
 	    if(!empty($email) && !filter_var($email, FILTER_VALIDATE_EMAIL) === false){
 	        // MailChimp API credentials
 	        $apiKey = 'e6516229f9515ebe67b8adeb5ba3bcae-us10';
-	        $listID = '0a49147dce';
-	        
+	        $listID = '9369b1ffc1';
+
 	        // MailChimp API URL
 	        $memberID = md5(strtolower($email));
 	        $dataCenter = substr($apiKey,strpos($apiKey,'-')+1);
 	        $url = 'https://us10.api.mailchimp.com/3.0/lists/' . $listID . '/members/' . $memberID;
-	        
+
 	        // member information
 	        $json = json_encode([
 	            'email_address' => $email,
 	            'status'        => 'subscribed',
-	            'merge_fields'  => [
+	            'merge_fields'  => array(
 	                'FNAME'     => $fname,
 	                'LNAME'     => $lname
-	            ]
+	            )
 	        ]);
-	        
+
 	        // send a HTTP POST request with curl
 	        $ch = curl_init($url);
 	        curl_setopt($ch, CURLOPT_USERPWD, 'user:' . $apiKey);
