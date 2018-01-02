@@ -60,12 +60,11 @@ body {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  margin-top: 24px; }
+  margin-top: 20vh; }
 
 h1 {
   font-weight: 600;
-  color: #161338;
-  letter-spacing: -1.2px;
+  color: #353849;
   line-height: 1.1; }
 
 p {
